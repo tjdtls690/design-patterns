@@ -23,6 +23,9 @@ public class App {
         // 가장 안전한 방법은 enum
         // 그러나 상속을 받아야하거나 지연초기화를 사용해야할 때는 static inner holder class
         
+        // 결론
+        // 가장 무난한 방법은 static inner holder class
+        
         
         // 직렬화 역직렬화 테스트
         Settings4 settings1 = null;
